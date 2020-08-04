@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "knex:migrate": "knex --knexfile knexfile.ts migrate:latest",
+    "knex:rollback": "knex --knexfile knexfile.ts migrate:rollback"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "devDependencies": {
     "ts-node-dev": "^1.0.0-pre.56",
     "typescript": "^3.9.7"
