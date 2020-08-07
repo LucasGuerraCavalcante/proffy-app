@@ -42,11 +42,11 @@ function StudyTabs() {
                 component={TeacherList} 
                 options={{
                     tabBarLabel: 'Proffys',
-                    tabBarIcon: ({ color, size }) => {
+                    tabBarIcon: ({ color, size, focused }) => {
                         return (
                             <Ionicons 
                                 name="ios-easel"
-                                color={color}
+                                color={focused ? '#8257E5' : color}
                                 size={size}   
                             />
                         );
@@ -58,11 +58,11 @@ function StudyTabs() {
                 component={Favorites} 
                 options={{
                     tabBarLabel: 'Favorites',
-                    tabBarIcon: ({ color, size }) => {
+                    tabBarIcon: ({ color, size, focused }) => {
                         return (
                             <Ionicons 
                                 name="ios-heart"
-                                color={color}
+                                color={focused ? '#8257E5' : color}
                                 size={size}   
                             />
                         );
