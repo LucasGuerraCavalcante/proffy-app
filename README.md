@@ -19,6 +19,11 @@ Mobile and web application to connect teachers and students, developed during Ro
 
 ## Preview (mobile)
 
+|   |  |   |
+| ------------- | ------------- | ------------- |
+| ![a](https://i.imgur.com/Cant7Ol.jpg)  | ![b](https://i.imgur.com/woKSWyv.jpg)  | ![c](https://i.imgur.com/mdXcQex.jpg)  |
+
+
 ##  How to run
 
 ### API ( cd /backend-api )
